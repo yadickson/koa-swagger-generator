@@ -1,9 +1,12 @@
 ### Koa Swagger Generator (forked from Express-swagger-generator)
 
+[![TravisCI Status][travis-image]][travis-url]
+[![npm version][npm-image]][npm-url]
+
 #### Installation
 
 ```
-npm i koa-swagger-generator --save-dev
+npm i koa-swagger-generator-api --save-dev
 ```
 
 #### Usage
@@ -12,7 +15,7 @@ npm i koa-swagger-generator --save-dev
 const Koa = require('koa');
 const app = new Koa();
 
-const koaSwagger = require('koa-swagger-generator')(app);
+const koaSwagger = require('koa-swagger-generator-api')(app);
 
 let options = {
     swaggerDefinition: {
@@ -114,3 +117,15 @@ For model definitions:
 #### More
 
 This module is based on [express-swagger-generator](https://github.com/pgroot/express-swagger-generator),  [express-swaggerize-ui](https://github.com/pgroot/express-swaggerize-ui) and [Doctrine-File](https://github.com/researchgate/doctrine-file)
+
+## License
+
+MIT © [Yadickson Soto](https://github.com/yadickson)
+
+Thanks to [koa-swagger-generator](https://github.com/arizorin/koa-swagger-generator)
+
+[travis-image]: https://travis-ci.org/yadickson/koa-swaggerize-ui.svg?branch=master
+[travis-url]: https://travis-ci.org/yadickson/koa-swaggerize-ui
+
+[npm-image]: https://badge.fury.io/js/koa-swaggerize-ui.svg
+[npm-url]: https://badge.fury.io/js/koa-swaggerize-ui
