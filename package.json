@@ -1,5 +1,5 @@
 {
-  "name": "koa-swagger-generator",
+  "name": "koa-swagger-generator-api",
   "version": "1.0.0",
   "description": "A fork of express-swagger-generator compatible to work with KOA.",
   "main": "index.js",
