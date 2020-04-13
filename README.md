@@ -124,8 +124,8 @@ MIT © [Yadickson Soto](https://github.com/yadickson)
 
 Thanks to [koa-swagger-generator](https://github.com/arizorin/koa-swagger-generator)
 
-[travis-image]: https://travis-ci.org/yadickson/koa-swaggerize-ui.svg?branch=master
-[travis-url]: https://travis-ci.org/yadickson/koa-swaggerize-ui
+[travis-image]: https://travis-ci.org/yadickson/koa-swagger-generator-api.svg?branch=master
+[travis-url]: https://travis-ci.org/yadickson/koa-swagger-generator-api
 
-[npm-image]: https://badge.fury.io/js/koa-swaggerize-ui.svg
-[npm-url]: https://badge.fury.io/js/koa-swaggerize-ui
+[npm-image]: https://badge.fury.io/js/koa-swagger-generator-api.svg
+[npm-url]: https://badge.fury.io/js/koa-swagger-generator-api
