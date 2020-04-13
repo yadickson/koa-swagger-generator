@@ -44,7 +44,7 @@ koaSwagger(options)
 app.listen(3000);
 ```
 
-Open [http://<app_host>:<app_port>/swagger]() in your browser to view the documentation.
+Open [http://<app_host>:<app_port>/api-docs]() in your browser to view the documentation.
 
 #### How to document the API
 
